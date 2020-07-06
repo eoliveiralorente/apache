@@ -1,0 +1,35 @@
+terraform
+==========
+
+1. configurar a chave de acesso a aws
+
+estrutua
+========
+
+providers :: indica qual cloud irá utilizar
+
+instalar o plugins da aws
+comando: terraform init
+
+após criar o arquivo ".tf" digitar o comando abaixo para testar.
+comando: terraform plan	
+
+após realizar o terraform plan, seguir com o comando abaixo. Esse comando irá criar o que foi configurado no arquivo.tf
+comando: terraform apply
+
+O comando abaixo tem a função de mostrar o que será removido.
+comando: terraform plan --destroy
+
+O comando abaixo pode ser usado para quando tiver certeza que terá que remover.
+comando: terraform destroy
+
+	
+
+
+/home/eduardo/.ssh/id_rsa
+
+/home/eduardo/.ssh/id_rsa.pub
+
+
+
+/var/www/html/index.html
